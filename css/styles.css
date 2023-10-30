@@ -471,7 +471,7 @@ button {
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 1158px) {
+@media only screen and (max-width: 1157px) {
   .about-container {
     display: none;
   }
@@ -483,7 +483,7 @@ button {
   gap: 72px 24px;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 427.98px) {
   .about .feature-title {
     text-align: center;
   }
@@ -544,7 +544,7 @@ button {
   gap: 24px;
 }
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1157.98px) {
   .activities-section-hidden {
     position: absolute;
     width: 1px;
@@ -583,7 +583,7 @@ button {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
   .team-list {
     flex-direction: column;
   }
@@ -678,6 +678,7 @@ button {
   }
   .customers-item {
     width: calc((100% - 24px * 2) / 3);
+      max-width: 168px;
   }
 }
 
@@ -829,7 +830,7 @@ button {
   gap: 72px 24px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
   .footer-container {
     justify-content: center;
     text-align: center;
@@ -1013,7 +1014,6 @@ button {
 
 .footer-lebel {
   display: block;
-  margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 768px) {
